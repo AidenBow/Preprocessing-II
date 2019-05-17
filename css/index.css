@@ -164,9 +164,30 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
+  max-width: 650px;
   width: 100%;
   margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 0px 15px 0px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header h1 {
+  margin-right: 45%;
+  font-size: 3rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
 }
 .footer {
   width: 100%;
